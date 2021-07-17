@@ -1,0 +1,66 @@
+.mul_form{
+    width: 100%;
+}
+.mul_form input{
+    width: 82%;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+}
+.result ul {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.5);
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px;
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    justify-content: center;
+    
+}
+.result ul li{
+    border: 1px solid rgb(252, 116, 116);
+    padding: 5px;
+    margin: 2px 0px;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery .img{
+    width: 32%;
+    margin-bottom: 20px;
+}
+.gallery .img img{
+    width: 100%;
+}
+.result{
+    justify-self: left;
+}
+.mul_form button{
+    border: 1px solid red;
+    background-color: rgb(10, 129, 165);
+    color: white;
+    padding: 8px 8px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.app_content_body{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 123%;
+    
+}
+.app_content{
+    width: 100%;
+}

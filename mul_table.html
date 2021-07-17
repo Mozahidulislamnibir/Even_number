@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mobile View</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="1.png">
+        
+            <meta charset="UTF-8">
+            <meta name="robots" content="index, follow">
+        
+            <meta http-equiv="cache-control" content="no-cache">
+            <meta http-equiv="expires" content="5000000">
+            <!-- <meta http-equiv="refresh" content="5"> -->
+        
+            <meta name="keywords" content="class one, html learn">
+            <meta name="description" content="you learn every things about html">
+            <meta name="author" content="mr abdul kuddus">
+            <meta name="copyrigth" content="www.mysite.com">
+            <meta name="revisit" content="5 days">
+        
+            <meta property="og:title" content="html learn" />
+            <meta property="og:site_name" content="adfas" />
+            <meta property="og:description" content="" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://" />
+            <meta property="og:image" content="http://" />
+            <meta property="og:image:width" content="600" />
+            <meta property="og:image:height" content="315" />
+        
+            <meta name="twitter:title" content="">
+            <meta name="twitter:description" content="">
+            <meta name="twitter:image" content="http://">
+            <meta name="twitter:card" content="summary_large_image">
+            <link rel="stylesheet" href="default.css">
+            <link rel="stylesheet" href="fonts/fontawesome/fontawesome-free-5.15.3-web/css/all.min.css">
+            <link rel="stylesheet" href="moblile_view.css">
+            <link rel="stylesheet" href="grade.css">
+            <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <main class="main_body">
+        <div class="top">
+            <div class="top_content">
+                <div class="left">
+                    <a href="#">
+                        <i class="fas fa-align-left"></i>
+                    </a>
+                </div>
+                <div class="mid">
+                    <form action="#">
+                        <input type="text" placeholder="search">
+                        <button type="button"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="right">
+                    <img src="avatar.jfif" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="app_content_body">
+                <div class="app_content">
+                    <form class="mul_form" name="mul_form" action="">
+                        <input type="text" placeholder="number" name="start" id="start">
+                        <input type="text" placeholder="number" name="end" id="end">
+                            
+                        <button type="button" onclick="oddForLoop(+mul_form.start.value, + mul_form.end.value)">
+                            ForLoop
+                          </button>
+                        <button type="button" onclick="odd_DoWhileloop( +mul_form.start.value, + mul_form.end.value)">
+                            DoWhileloop
+                          </button>
+                                      <button type="button" onclick="odd_Whileloop( +mul_form.start.value, + mul_form.end.value)">
+                            WhileLoop
+                          </button>
+                                      <button type="button" onclick="oddrFunction(+mul_form.start.value, + mul_form.end.value)">
+                            rFunction
+                    </form>
+                </div> 
+            </div>
+        </div>
+        <div>
+            <div class="mul_result result">
+                <ul id="result">
+                </ul>
+            </div>
+        <div class="bottom">
+            <ul class="nav_links">
+                <li>
+                    <a href="#" class="nav_items">
+                        <i class="fas fa-baseball-ball"></i>
+                        <span>games</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_items">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>earnings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active nav_items">
+                        <i class="fas fa-home"></i>
+                        <span>home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_items">
+                        <i class="fas fa-car"></i>
+                        <span>cars</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_items">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="learn.js"></script>
+
+</body>
+
+</html>
